@@ -1,0 +1,61 @@
+name: ticket_booking
+description: A ticket booking app with clean architecture using BLoC, GetIt, Dio, and GoRouter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  
+  # Dependency Injection
+  get_it: ^7.6.4
+  injectable: ^2.3.2
+  
+  # Networking
+  dio: ^5.4.0
+  pretty_dio_logger: ^1.3.1
+  
+  # Routing
+  go_router: ^13.0.1
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  dartz: ^0.10.1
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  
+  # UI
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.9
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  injectable_generator: ^2.4.1
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
